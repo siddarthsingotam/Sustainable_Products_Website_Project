@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(Images/white-abstract-wallpaper_diamond.webp);
+    background-size: 100%;
+}
+
+header {
+    margin: 0;
+}
+
+nav {
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    background-color: darkslategrey;
+    color: aliceblue;
+    line-height: 65px;
+    padding-top: 0;
+    padding-bottom: 100px;
+
+}
+
+.logo .logo_image {
+    margin: 0;
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+nav .logo p {
+    margin: 0;
+    float: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 30px;
+    color: lawngreen;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+nav ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+    padding-inline: 2rem;
+}
+
+.Company_name {
+    text-align: center;
+    /*border: 0;
+    padding: 0;*/
+    font-size: 60px;
+    color: darkslategrey;
+    display: block;
+    font-weight: bold;
+}
+
+.image_home {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    border: transparent;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+.first_para p {
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+
+section h2 {
+    text-align: left;
+    /*border: 0;
+    padding: 0;*/
+    font-size: 60px;
+    color: darkslategrey;
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 110px;
+}
+
+section p {
+    display: block;
+    text-align: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.Front_img_products {
+    display: block;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.Product_boxes {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    width: 32%;
+    background: aliceblue;
+    margin: 7px;
+    border-radius: 10px;
+}
+
+article h3 {
+    margin: 8px auto 8px 16px;
+}
+
+article p {
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+article img {
+    border-radius: 10px;
+}
+
+article img:hover {
+    border-radius: 10px;
+    transform: scale(1.03);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.P_img1 {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.P_img2 {
+    height: 350px;
+    width: 350px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.P_img3 {
+    height: 350px;
+    width: 350px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
